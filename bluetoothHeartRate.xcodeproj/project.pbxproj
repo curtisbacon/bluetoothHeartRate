@@ -14,6 +14,7 @@
 		5E795A7D1C136A8B0029D239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E795A7B1C136A8B0029D239 /* LaunchScreen.storyboard */; };
 		5E795A881C136A8B0029D239 /* bluetoothHeartRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E795A871C136A8B0029D239 /* bluetoothHeartRateTests.swift */; };
 		5E795A931C136A8B0029D239 /* bluetoothHeartRateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E795A921C136A8B0029D239 /* bluetoothHeartRateUITests.swift */; };
+		5E795AA11C136BC00029D239 /* BluetoothLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E795AA01C136BC00029D239 /* BluetoothLE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5E795A8E1C136A8B0029D239 /* bluetoothHeartRateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluetoothHeartRateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E795A921C136A8B0029D239 /* bluetoothHeartRateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluetoothHeartRateUITests.swift; sourceTree = "<group>"; };
 		5E795A941C136A8B0029D239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E795AA01C136BC00029D239 /* BluetoothLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothLE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				5E795A721C136A8A0029D239 /* AppDelegate.swift */,
 				5E795A741C136A8A0029D239 /* ViewController.swift */,
 				5E795A761C136A8A0029D239 /* Main.storyboard */,
+				5E795AA01C136BC00029D239 /* BluetoothLE.swift */,
 				5E795A791C136A8A0029D239 /* Assets.xcassets */,
 				5E795A7B1C136A8B0029D239 /* LaunchScreen.storyboard */,
 				5E795A7E1C136A8B0029D239 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				5E795A751C136A8A0029D239 /* ViewController.swift in Sources */,
 				5E795A731C136A8A0029D239 /* AppDelegate.swift in Sources */,
+				5E795AA11C136BC00029D239 /* BluetoothLE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
